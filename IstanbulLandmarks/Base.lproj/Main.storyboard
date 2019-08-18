@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SoT-eQ-2Zq">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Istanbul Landmarks-->
+        <scene sceneID="pf1-6d-hBB">
+            <objects>
+                <tableViewController id="H2r-Dh-48f" customClass="TableViewController" customModule="IstanbulLandmarks" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="90s-Cc-S69">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="fbp-GH-s5M" customClass="TableViewCell" customModule="IstanbulLandmarks" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fbp-GH-s5M" id="YAr-fW-c1d">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.666666666666671"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWh-9g-ZFN">
+                                            <rect key="frame" x="185" y="11" width="209" height="31"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkB-yC-onW">
+                                            <rect key="frame" x="185" y="50" width="209" height="31"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="12"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TheHagiaSophia" translatesAutoresizingMaskIntoConstraints="NO" id="rv7-3O-VBj">
+                                            <rect key="frame" x="20" y="5" width="147" height="89"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="rv7-3O-VBj" secondAttribute="height" multiplier="147:89" id="bHo-PQ-LHw"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="PkB-yC-onW" firstAttribute="height" secondItem="BWh-9g-ZFN" secondAttribute="height" id="5e4-jp-0Ue"/>
+                                        <constraint firstItem="BWh-9g-ZFN" firstAttribute="leading" secondItem="rv7-3O-VBj" secondAttribute="trailing" constant="18" id="75m-Js-IwZ"/>
+                                        <constraint firstItem="PkB-yC-onW" firstAttribute="top" secondItem="BWh-9g-ZFN" secondAttribute="bottom" constant="8" id="85Q-lE-JJ8"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="PkB-yC-onW" secondAttribute="bottom" constant="8" id="Ery-l7-wzR"/>
+                                        <constraint firstItem="PkB-yC-onW" firstAttribute="width" secondItem="BWh-9g-ZFN" secondAttribute="width" id="WAB-na-ROK"/>
+                                        <constraint firstItem="PkB-yC-onW" firstAttribute="leading" secondItem="rv7-3O-VBj" secondAttribute="trailing" constant="18" id="Zum-BH-ViF"/>
+                                        <constraint firstItem="PkB-yC-onW" firstAttribute="trailing" secondItem="YAr-fW-c1d" secondAttribute="trailingMargin" id="elS-CF-t3e"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="rv7-3O-VBj" secondAttribute="bottom" constant="-5" id="gUn-9D-hoW"/>
+                                        <constraint firstItem="BWh-9g-ZFN" firstAttribute="top" secondItem="YAr-fW-c1d" secondAttribute="topMargin" id="n5m-g3-SVc"/>
+                                        <constraint firstItem="rv7-3O-VBj" firstAttribute="leading" secondItem="YAr-fW-c1d" secondAttribute="leadingMargin" id="nFc-cl-WAF"/>
+                                        <constraint firstItem="BWh-9g-ZFN" firstAttribute="trailing" secondItem="YAr-fW-c1d" secondAttribute="trailingMargin" id="pIk-hD-WhY"/>
+                                        <constraint firstItem="rv7-3O-VBj" firstAttribute="top" secondItem="YAr-fW-c1d" secondAttribute="topMargin" constant="-6" id="xlI-s6-Gu1"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cellDescription" destination="PkB-yC-onW" id="YdJ-6R-Bb2"/>
+                                    <outlet property="cellImage" destination="rv7-3O-VBj" id="r9H-bO-Adk"/>
+                                    <outlet property="cellTitle" destination="BWh-9g-ZFN" id="CxT-cE-Tzg"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="H2r-Dh-48f" id="76P-fB-z2S"/>
+                            <outlet property="delegate" destination="H2r-Dh-48f" id="gJy-35-oES"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Istanbul Landmarks" id="ASp-IY-moB"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eTp-q7-V4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071.0144927536232" y="117.85714285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xdP-pr-mPp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SoT-eQ-2Zq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Csa-pc-uF6">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="H2r-Dh-48f" kind="relationship" relationship="rootViewController" id="ITq-fB-iVN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JpV-cL-73I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.86956521739131" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TheHagiaSophia" width="900" height="585"/>
+    </resources>
+</document>

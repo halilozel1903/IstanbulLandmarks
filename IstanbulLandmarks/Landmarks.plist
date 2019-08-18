@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Galata Tower</string>
+		<key>Address</key>
+		<string>Bereketzade, Galata Kulesi Sk, 34421 Beyoğlu/İstanbul</string>
+		<key>Image</key>
+		<string>GalataTower</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Maiden&apos;s Tower</string>
+		<key>Address</key>
+		<string>Üsküdar Salacak Mevkii, 34668 Üsküdar/İstanbul</string>
+		<key>Image</key>
+		<string>Maiden&apos;s Tower</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>The Hagia Sophia</string>
+		<key>Address</key>
+		<string>Sultan Ahmet, Ayasofya Meydanı, 34122 Fatih/İstanbul</string>
+		<key>Image</key>
+		<string>TheHagiaSophia</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Suleymaniye Mosque</string>
+		<key>Address</key>
+		<string>Süleymaniye Mah, Sami Onar Cd, 34116 Fatih/İstanbul</string>
+		<key>Image</key>
+		<string>SuleymaniyeMosque</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dolmabahce Palace</string>
+		<key>Address</key>
+		<string>Vişnezade, Dolmabahçe Cd, 34357 Beşiktaş/İstanbul</string>
+		<key>Image</key>
+		<string>DolmabahcePalace</string>
+	</dict>
+</array>
+</plist>
