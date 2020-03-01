@@ -14,6 +14,7 @@
 		2929BE0723099BC900F9FA6F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929BE0623099BC900F9FA6F /* TableViewController.swift */; };
 		2929BE0923099C3E00F9FA6F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929BE0823099C3E00F9FA6F /* TableViewCell.swift */; };
 		2929BE0B2309A32400F9FA6F /* Landmarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2929BE0A2309A32400F9FA6F /* Landmarks.plist */; };
+		2951F894240C44CF00C84650 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951F893240C44CF00C84650 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2929BE0623099BC900F9FA6F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2929BE0823099C3E00F9FA6F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		2929BE0A2309A32400F9FA6F /* Landmarks.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Landmarks.plist; sourceTree = "<group>"; };
+		2951F893240C44CF00C84650 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				2929BDF423099AE800F9FA6F /* AppDelegate.swift */,
 				2929BE0623099BC900F9FA6F /* TableViewController.swift */,
 				2929BE0823099C3E00F9FA6F /* TableViewCell.swift */,
+				2951F893240C44CF00C84650 /* DetailViewController.swift */,
 				2929BDF823099AE800F9FA6F /* Main.storyboard */,
 				2929BDFB23099AEA00F9FA6F /* Assets.xcassets */,
 				2929BDFD23099AEA00F9FA6F /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				2929BE0923099C3E00F9FA6F /* TableViewCell.swift in Sources */,
 				2929BDF523099AE800F9FA6F /* AppDelegate.swift in Sources */,
 				2929BE0723099BC900F9FA6F /* TableViewController.swift in Sources */,
+				2951F894240C44CF00C84650 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

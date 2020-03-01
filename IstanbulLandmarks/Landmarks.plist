@@ -9,6 +9,12 @@
 		<string>Bereketzade, Galata Kulesi Sk, 34421 Beyoğlu/İstanbul</string>
 		<key>Image</key>
 		<string>GalataTower</string>
+		<key>Description</key>
+		<string>The Galata Tower (Galata Kulesi in Turkish)  called Christea Turris (the Tower of Christ in Latin) by the Genoese is a medieval stone tower in the Galata/Karaköy quarter of Istanbul, Turkey, just to the north of the Golden Horn&apos;s junction with the Bosphorus. It is a high, cone-capped cylinder that dominates the skyline and offers a panoramic vista of Istanbul&apos;s historic peninsula and its environs.</string>
+		<key>Latitude</key>
+		<string>41.0256401</string>
+		<key>Longitude</key>
+		<string>28.9742134</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -17,6 +23,12 @@
 		<string>Üsküdar Salacak Mevkii, 34668 Üsküdar/İstanbul</string>
 		<key>Image</key>
 		<string>Maiden&apos;s Tower</string>
+		<key>Description</key>
+		<string>The Maiden&apos;s Tower (Turkish: Kız Kulesi), also known as Leander&apos;s Tower (Tower of Leandros) since the medieval Byzantine period, is a tower lying on a small islet located at the southern entrance of the Bosphorus strait 200 m (220 yd) from the coast of Üsküdar in Istanbul, Turkey.</string>
+		<key>Latitude</key>
+		<string>41.0211376</string>
+		<key>Longitude</key>
+		<string>29.0040582</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -25,6 +37,12 @@
 		<string>Sultan Ahmet, Ayasofya Meydanı, 34122 Fatih/İstanbul</string>
 		<key>Image</key>
 		<string>TheHagiaSophia</string>
+		<key>Description</key>
+		<string>Hagia Sophia (Turkish: Ayasofya) is the former Greek Orthodox Christian patriarchal cathedral, later an Ottoman imperial mosque and now a museum (Ayasofya Müzesi) in Istanbul, Turkey. Built in AD 537 in the Middle Ages, it is famous for its massive dome. It was the world&apos;s largest building and an engineering marvel of its time. It is considered the epitome of Byzantine architecture and is said to have &quot;changed the history of architecture&quot;</string>
+		<key>Latitude</key>
+		<string>41.0085087</string>
+		<key>Longitude</key>
+		<string>28.9800099</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -33,6 +51,12 @@
 		<string>Süleymaniye Mah, Sami Onar Cd, 34116 Fatih/İstanbul</string>
 		<key>Image</key>
 		<string>SuleymaniyeMosque</string>
+		<key>Description</key>
+		<string>The Süleymaniye Mosque (Turkish: Süleymaniye Camii) is an Ottoman imperial mosque located on the Third Hill of Istanbul, Turkey. The mosque was commissioned by Suleiman the Magnificent and designed by the imperial architect Mimar Sinan. An inscription specifies the foundation date as 1550 and the inauguration date as 1557. The mosque was built by the Ottoman sultan Suleyman ( 1520–1566) and the mosque was named after him. The mosque is located at the highest end of the city of Istanbul. It is designed to glorify the sultan</string>
+		<key>Latitude</key>
+		<string>41.0162901</string>
+		<key>Longitude</key>
+		<string>28.9637867</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -41,6 +65,12 @@
 		<string>Vişnezade, Dolmabahçe Cd, 34357 Beşiktaş/İstanbul</string>
 		<key>Image</key>
 		<string>DolmabahcePalace</string>
+		<key>Description</key>
+		<string>Dolmabahçe Palace (Turkish: Dolmabahçe Sarayı) located in the Beşiktaş district of Istanbul, Turkey, on the European coast of the Strait of Istanbul, served as the main administrative center of the Ottoman Empire from 1856 to 1887 and from 1909 to 1922 (Yıldız Palace was used in the interim period).</string>
+		<key>Latitude</key>
+		<string>41.038964</string>
+		<key>Longitude</key>
+		<string>28.9995382</string>
 	</dict>
 </array>
 </plist>
