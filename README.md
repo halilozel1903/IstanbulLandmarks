@@ -1,2 +1,2 @@
 # Istanbul Landmarks
-Istanbul Landmarks iOS App
+Istanbul Landmarks is iOS App
